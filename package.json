@@ -1,0 +1,36 @@
+{
+  "name": "sanchirdiscordbot",
+  "version": "0.0.1",
+  "description": "Sanchir's Discord Bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord.js": "^11.4.2",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "fs": "0.0.1-security",
+    "json-update": "^5.3.0",
+    "opusscript": "0.0.7",
+    "request": "^2.88.2",
+    "youtube-search": "^1.1.4",
+    "ytdl-core": "^2.1.1",
+    "ytdl-core-discord": "^1.2.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "http://bot.saturn.mn/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express",
+    "discord",
+    "saturn.mn"
+  ]
+}
